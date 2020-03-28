@@ -89,5 +89,6 @@
         @Html.ValidationMessageFor(model => model.Branch, "", new { @class = "text-danger" })
     </div>
 
+    @Html.AntiForgeryToken()
     <input type="submit" value="@Language.Create" class="btn btn-primary" />
 }
