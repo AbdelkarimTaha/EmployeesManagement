@@ -120,101 +120,17 @@
   <data name="About" xml:space="preserve">
     <value>About</value>
   </data>
-  <data name="ApplicationName" xml:space="preserve">
-    <value>Application Name</value>
-  </data>
-  <data name="Arabic" xml:space="preserve">
-    <value>اللغة العربية</value>
-  </data>
-  <data name="Contact" xml:space="preserve">
-    <value>Contact</value>
-  </data>
-  <data name="English" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="FirstName" xml:space="preserve">
-    <value>First Name</value>
-  </data>
-  <data name="FirstNameReqired" xml:space="preserve">
-    <value>First Name is reqired</value>
-  </data>
-  <data name="Hello" xml:space="preserve">
-    <value>Hello</value>
-  </data>
-  <data name="Home" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="Login" xml:space="preserve">
-    <value>Log in</value>
-  </data>
-  <data name="LogOff" xml:space="preserve">
-    <value>Log Off</value>
-  </data>
-  <data name="Register" xml:space="preserve">
-    <value>Register</value>
-  </data>
   <data name="AddressReqired" xml:space="preserve">
     <value>Address is Reqired</value>
   </data>
   <data name="Alexandria" xml:space="preserve">
     <value>Alexandria</value>
   </data>
-  <data name="Cairo" xml:space="preserve">
-    <value>Cairo</value>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>Application Name</value>
   </data>
-  <data name="City" xml:space="preserve">
-    <value>City</value>
-  </data>
-  <data name="Create" xml:space="preserve">
-    <value>Create</value>
-  </data>
-  <data name="Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
-  <data name="EmailReqired" xml:space="preserve">
-    <value>Email is Reqired</value>
-  </data>
-  <data name="FullName" xml:space="preserve">
-    <value>Full Name</value>
-  </data>
-  <data name="FullNameReqired" xml:space="preserve">
-    <value>Full Name is Reqired</value>
-  </data>
-  <data name="Giza" xml:space="preserve">
-    <value>Giza</value>
-  </data>
-  <data name="JobTitle" xml:space="preserve">
-    <value>Job Title</value>
-  </data>
-  <data name="JobTitleReqired" xml:space="preserve">
-    <value>Job title is Reqired</value>
-  </data>
-  <data name="LastName" xml:space="preserve">
-    <value>Last Name </value>
-  </data>
-  <data name="LastNameReqired" xml:space="preserve">
-    <value>Last Name is Reqired</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Password</value>
-  </data>
-  <data name="PasswordReqired" xml:space="preserve">
-    <value>Password is Reqired</value>
-  </data>
-  <data name="Qalyuba" xml:space="preserve">
-    <value>Qalyuba</value>
-  </data>
-  <data name="Salary" xml:space="preserve">
-    <value>Salary</value>
-  </data>
-  <data name="SalaryReqired" xml:space="preserve">
-    <value>Salary is Reqired</value>
-  </data>
-  <data name="SelectYourCity" xml:space="preserve">
-    <value>Select your city</value>
-  </data>
-  <data name="EmployeeDetails" xml:space="preserve">
-    <value>Employee Details</value>
+  <data name="Arabic" xml:space="preserve">
+    <value>اللغة العربية</value>
   </data>
   <data name="BirthDate" xml:space="preserve">
     <value>Birth Date</value>
@@ -228,11 +144,14 @@
   <data name="BranchReqired" xml:space="preserve">
     <value>Branch is Reqired</value>
   </data>
-  <data name="Department" xml:space="preserve">
-    <value>Department</value>
+  <data name="Cairo" xml:space="preserve">
+    <value>Cairo</value>
   </data>
-  <data name="DepartmentReqired" xml:space="preserve">
-    <value>Department is Reqired</value>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
   </data>
   <data name="CorrectEmail" xml:space="preserve">
     <value>InCorrect Email</value>
@@ -240,7 +159,112 @@
   <data name="CorrectPassword" xml:space="preserve">
     <value>inCorrect Password</value>
   </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="DepartmentReqired" xml:space="preserve">
+    <value>Department is Reqired</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailReqired" xml:space="preserve">
+    <value>Email is Reqired</value>
+  </data>
+  <data name="EmployeeDetails" xml:space="preserve">
+    <value>Employee Details</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Employees Name</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="FirstNameReqired" xml:space="preserve">
+    <value>First Name is reqired</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="FullNameReqired" xml:space="preserve">
+    <value>Full Name is Reqired</value>
+  </data>
+  <data name="Giza" xml:space="preserve">
+    <value>Giza</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="JobTitleReqired" xml:space="preserve">
+    <value>Job title is Reqired</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last Name </value>
+  </data>
+  <data name="LastNameReqired" xml:space="preserve">
+    <value>Last Name is Reqired</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Log Off</value>
+  </data>
   <data name="MaxLength" xml:space="preserve">
     <value>Max Length is 255</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordReqired" xml:space="preserve">
+    <value>Password is Reqired</value>
+  </data>
+  <data name="Qalyuba" xml:space="preserve">
+    <value>Qalyuba</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="SalaryReqired" xml:space="preserve">
+    <value>Salary is Reqired</value>
+  </data>
+  <data name="SelectYourBranch" xml:space="preserve">
+    <value>Select Your Branch</value>
+  </data>
+  <data name="SelectYourCity" xml:space="preserve">
+    <value>Select your city</value>
+  </data>
+  <data name="SelectYourDepartment" xml:space="preserve">
+    <value>Select Your Department</value>
+  </data>
+  <data name="SelectYourjobtitle" xml:space="preserve">
+    <value>Select Your Job Title</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
   </data>
 </root>

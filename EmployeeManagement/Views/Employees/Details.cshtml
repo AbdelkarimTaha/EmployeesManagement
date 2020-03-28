@@ -1,0 +1,21 @@
+﻿@using EmployeeManagement.Resources
+@model EmployeeManagement.Models.Employee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Language.EmployeeDetails</h2>
+
+<div>
+    <p>@Language.FirstName : @Model.FirstName</p>
+    <p>@Language.LastName :   @Model.LastName</p>
+    <p>@Language.FullName :   @Model.FullName</p>
+    <p>@Language.Salary :   @Model.Salary</p>
+    <p>@Language.JobTitle :   @Model.JobTitle</p>
+    <p>@Language.Email :   @Model.Email</p>
+    <p>@Language.Password :   @Model.Password</p>
+    <p>@Language.City :   @Model.City</p>
+    <p>@Language.Branch :   @Model.Branch</p>
+    <p>@Language.Department :   @Model.Department</p>
+</div>

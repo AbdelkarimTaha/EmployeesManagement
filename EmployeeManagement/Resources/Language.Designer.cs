@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Employees.Resources {
+namespace EmployeeManagement.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Employees.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Employees.Resources.Language", typeof(Language).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EmployeeManagement.Resources.Language", typeof(Language).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -106,6 +106,42 @@ namespace Employees.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Birth Date.
+        /// </summary>
+        public static string BirthDate {
+            get {
+                return ResourceManager.GetString("BirthDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Birthdate is Reqired.
+        /// </summary>
+        public static string BirthdateReqired {
+            get {
+                return ResourceManager.GetString("BirthdateReqired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Branch.
+        /// </summary>
+        public static string Branch {
+            get {
+                return ResourceManager.GetString("Branch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Branch is Reqired.
+        /// </summary>
+        public static string BranchReqired {
+            get {
+                return ResourceManager.GetString("BranchReqired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cairo.
         /// </summary>
         public static string Cairo {
@@ -133,11 +169,56 @@ namespace Employees.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to InCorrect Email.
+        /// </summary>
+        public static string CorrectEmail {
+            get {
+                return ResourceManager.GetString("CorrectEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to inCorrect Password.
+        /// </summary>
+        public static string CorrectPassword {
+            get {
+                return ResourceManager.GetString("CorrectPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Create.
         /// </summary>
         public static string Create {
             get {
                 return ResourceManager.GetString("Create", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete.
+        /// </summary>
+        public static string Delete {
+            get {
+                return ResourceManager.GetString("Delete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Department.
+        /// </summary>
+        public static string Department {
+            get {
+                return ResourceManager.GetString("Department", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Department is Reqired.
+        /// </summary>
+        public static string DepartmentReqired {
+            get {
+                return ResourceManager.GetString("DepartmentReqired", resourceCulture);
             }
         }
         
@@ -165,6 +246,24 @@ namespace Employees.Resources {
         public static string EmployeeDetails {
             get {
                 return ResourceManager.GetString("EmployeeDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Employees Name.
+        /// </summary>
+        public static string EmployeeName {
+            get {
+                return ResourceManager.GetString("EmployeeName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Employees.
+        /// </summary>
+        public static string Employees {
+            get {
+                return ResourceManager.GetString("Employees", resourceCulture);
             }
         }
         
@@ -295,6 +394,15 @@ namespace Employees.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Max Length is 255.
+        /// </summary>
+        public static string MaxLength {
+            get {
+                return ResourceManager.GetString("MaxLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Password.
         /// </summary>
         public static string Password {
@@ -349,11 +457,56 @@ namespace Employees.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Select Your Branch.
+        /// </summary>
+        public static string SelectYourBranch {
+            get {
+                return ResourceManager.GetString("SelectYourBranch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select your city.
         /// </summary>
         public static string SelectYourCity {
             get {
                 return ResourceManager.GetString("SelectYourCity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Your Department.
+        /// </summary>
+        public static string SelectYourDepartment {
+            get {
+                return ResourceManager.GetString("SelectYourDepartment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Your Job Title.
+        /// </summary>
+        public static string SelectYourjobtitle {
+            get {
+                return ResourceManager.GetString("SelectYourjobtitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update.
+        /// </summary>
+        public static string Update {
+            get {
+                return ResourceManager.GetString("Update", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View.
+        /// </summary>
+        public static string View {
+            get {
+                return ResourceManager.GetString("View", resourceCulture);
             }
         }
     }
