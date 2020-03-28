@@ -70,6 +70,7 @@ namespace EmployeeManagement.Controllers
             else
             {
                 var customerInDb = _context.Employees.Single(c => c.Id == employee.Id);
+
                 customerInDb.FirstName = employee.FirstName;
                 customerInDb.LastName = employee.LastName;
                 customerInDb.FullName = employee.FullName;

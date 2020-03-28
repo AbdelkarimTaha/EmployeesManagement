@@ -8,9 +8,9 @@ namespace EmployeeManagement.Models
 {
     public enum Department
     {
-        HR = 1,
-        Social = 2,
-        Development = 3,
-        Network = 4
+        HR,
+        Social,
+        Development,
+        Network
     }
 }

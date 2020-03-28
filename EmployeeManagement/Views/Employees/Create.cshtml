@@ -55,7 +55,7 @@
 
     <div class="form-group">
         @Html.LabelFor(m => m.City)
-        @Html.DropDownList("EmployeeCity",
+        @Html.DropDownList("City",
                             new SelectList(Enum.GetValues(typeof(City))),
                             Language.SelectYourCity,
                             new { @class = "form-control" })
@@ -64,7 +64,7 @@
 
     <div class="form-group">
         @Html.LabelFor(m => m.JobTitle)
-        @Html.DropDownList("EmployeeDepartment",
+        @Html.DropDownList("JobTitle",
                             new SelectList(Enum.GetValues(typeof(JobTitle))),
                             Language.SelectYourjobtitle,
                             new { @class = "form-control" })
@@ -73,7 +73,7 @@
 
     <div class="form-group">
         @Html.LabelFor(m => m.Department)
-        @Html.DropDownList("EmployeeDepartment",
+        @Html.DropDownList("Department",
                             new SelectList(Enum.GetValues(typeof(Department))),
                             Language.SelectYourDepartment,
                             new { @class = "form-control" })
@@ -82,7 +82,7 @@
 
     <div class="form-group">
         @Html.LabelFor(m => m.Branch)
-        @Html.DropDownList("EmployeeDepartment",
+        @Html.DropDownList("Branch",
                             new SelectList(Enum.GetValues(typeof(Branch))),
                             Language.SelectYourBranch,
                             new { @class = "form-control" })

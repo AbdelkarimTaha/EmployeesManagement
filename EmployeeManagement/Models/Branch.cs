@@ -8,8 +8,8 @@ namespace EmployeeManagement.Models
 {
     public enum Branch
     {
-        Egypt = 1,
-        USA = 2,
-        UK = 3,
+        USA,
+        Egypt,
+        UK
     }
 }
