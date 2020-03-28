@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Web;
 
 namespace EmployeeManagement.Models
 {
-    public class Department
+    public enum Department
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        [Description("HR Department")] HRDepartment = 1,
+        [Description("Social Department")] SocialDepartment = 2,
+        [Description("Development Department")] DevelopmentDepartment = 3,
+        [Description("Network Department")] NetworkDepartment = 4
     }
 }

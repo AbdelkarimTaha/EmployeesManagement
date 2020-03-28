@@ -13,22 +13,27 @@ namespace EmployeeManagement.Models
 
         [Display(Name = "FirstName", ResourceType = typeof(Language))]
         [Required(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "FirstNameReqired")]
+        [MaxLength(255,ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "MaxLength")]
         public string FirstName { get; set; }
 
         [Display(Name = "LastName", ResourceType = typeof(Language))]
         [Required(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "LastNameReqired")]
+        [MaxLength(255, ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "MaxLength")]
         public string LastName { get; set; }
 
         [Display(Name = "FullName", ResourceType = typeof(Language))]
         [Required(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "FullNameReqired")]
+        [MaxLength(255, ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "MaxLength")]
         public string FullName { get; set; }
 
         [Display(Name = "Email", ResourceType = typeof(Language))]
         [Required(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "EmailReqired")]
+        [EmailAddress(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "CorrectEmail")]
         public string Email { get; set; }
 
         [Display(Name = "Password", ResourceType = typeof(Language))]
         [Required(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "PasswordReqired")]
+        [MinLength(8,ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "CorrectPassword")]
         public string Password { get; set; }
 
         [Display(Name = "City", ResourceType = typeof(Language))]
@@ -41,19 +46,15 @@ namespace EmployeeManagement.Models
 
         [Display(Name = "JobTitle", ResourceType = typeof(Language))]
         [Required(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "JobTitleReqired")]
-        public string JobTitle { get; set; }
-
-        public Branch Branch { get; set; }
+        public JobTitle JobTitle { get; set; }
 
         [Display(Name = "Branch", ResourceType = typeof(Language))]
         [Required(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "BranchReqired")]
-        public int BranchId { get; set; }
-
-        public Department Department { get; set; }
+        public Branch Branch { get; set; }
 
         [Display(Name = "Department", ResourceType = typeof(Language))]
         [Required(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "DepartmentReqired")]
-        public int DepartmentId { get; set; }
+        public Department Department { get; set; }
 
         [Display(Name = "BirthDate", ResourceType = typeof(Language))]
         [Required(ErrorMessageResourceType = typeof(Language), ErrorMessageResourceName = "BirthdateReqired")]
