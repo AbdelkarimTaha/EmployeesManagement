@@ -11,7 +11,6 @@ namespace EmployeeManagement.Controllers
 {
     public class EmployeesController : Controller
     {
-        // GET: Employees
         private ApplicationDbContext _context;
 
         public EmployeesController()
@@ -51,10 +50,14 @@ namespace EmployeeManagement.Controllers
         public ActionResult Create(int? id)
         {
             var employee = _context.Employees.SingleOrDefault(m => m.Id == id);
+            ViewBag.Update = false;
 
+            //update
             if (employee != null)
+            {
+                ViewBag.Update = true;
                 return View(employee);
-
+            }
             return View();
         }
 
