@@ -90,5 +90,5 @@
     </div>
 
     @Html.AntiForgeryToken()
-    <input type="submit" value="@Language.Create" class="btn btn-primary" />
+    <input type="submit" value="@((ViewBag.Update == true) ? Language.Update : Language.Create)" class="btn btn-primary" />
 }
