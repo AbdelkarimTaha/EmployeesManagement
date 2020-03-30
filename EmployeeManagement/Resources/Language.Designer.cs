@@ -61,11 +61,11 @@ namespace EmployeeManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About.
+        ///   Looks up a localized string similar to New Employee.
         /// </summary>
-        public static string About {
+        public static string AddNewEmployee {
             get {
-                return ResourceManager.GetString("About", resourceCulture);
+                return ResourceManager.GetString("AddNewEmployee", resourceCulture);
             }
         }
         
@@ -160,6 +160,15 @@ namespace EmployeeManagement.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Confirm password.
+        /// </summary>
+        public static string Confirmpassword {
+            get {
+                return ResourceManager.GetString("Confirmpassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Contact.
         /// </summary>
         public static string Contact {
@@ -192,6 +201,15 @@ namespace EmployeeManagement.Resources {
         public static string Create {
             get {
                 return ResourceManager.GetString("Create", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Data {
+            get {
+                return ResourceManager.GetString("Data", resourceCulture);
             }
         }
         
@@ -250,7 +268,7 @@ namespace EmployeeManagement.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Employees Name.
+        ///   Looks up a localized string similar to Employee Name.
         /// </summary>
         public static string EmployeeName {
             get {
@@ -403,6 +421,15 @@ namespace EmployeeManagement.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Register as a new user.
+        /// </summary>
+        public static string NewUser {
+            get {
+                return ResourceManager.GetString("NewUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Password.
         /// </summary>
         public static string Password {
@@ -435,6 +462,15 @@ namespace EmployeeManagement.Resources {
         public static string Register {
             get {
                 return ResourceManager.GetString("Register", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remember Me?.
+        /// </summary>
+        public static string RememberMe {
+            get {
+                return ResourceManager.GetString("RememberMe", resourceCulture);
             }
         }
         

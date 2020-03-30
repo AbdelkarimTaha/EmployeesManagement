@@ -117,8 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="About" xml:space="preserve">
-    <value>About</value>
+  <data name="AddNewEmployee" xml:space="preserve">
+    <value>New Employee</value>
   </data>
   <data name="AddressReqired" xml:space="preserve">
     <value>Address is Reqired</value>
@@ -181,7 +181,7 @@
     <value>Employee Details</value>
   </data>
   <data name="EmployeeName" xml:space="preserve">
-    <value>Employees Name</value>
+    <value>Employee Name</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>Employees</value>
@@ -266,5 +266,17 @@
   </data>
   <data name="View" xml:space="preserve">
     <value>View</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Confirmpassword" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="NewUser" xml:space="preserve">
+    <value>Register as a new user</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Remember Me?</value>
   </data>
 </root>

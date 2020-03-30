@@ -3,18 +3,22 @@
 
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = Language.Employees;
 }
 
 <h2>@Language.Employees</h2>
 
+<div style="margin-bottom:10px">
+    @Html.ActionLink(@Language.AddNewEmployee, "Create", "Employees", new { @class = "btn btn-primary" })
+</div>
+
 <table class="table table-hover">
     <thead>
         <tr>
-            <th>@Language.EmployeeName</th>
-            <th>@Language.View</th>
-            <th>@Language.Update</th>
-            <th>@Language.Delete</th>
+            <td style="font-size:large">@Language.EmployeeName</td>
+            <td style="font-size:large">@Language.View</td>
+            <td style="font-size:large">@Language.Update</td>
+            <td style="font-size:large">@Language.Delete</td>
         </tr>
     </thead>
 
@@ -35,8 +39,7 @@
 {
     <script>
         $(document).ready(function () {
-            $("table").dataTable();
+            //$("table").dataTable();
         });
     </script>
 }
-   

@@ -59,6 +59,7 @@ namespace EmployeeManagement.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken()]
         public ActionResult Create(Employee employee)
         {
             if (!ModelState.IsValid)

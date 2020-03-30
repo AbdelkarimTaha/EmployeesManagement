@@ -120,6 +120,9 @@
   <data name="About" xml:space="preserve">
     <value>عن</value>
   </data>
+  <data name="AddNewEmployee" xml:space="preserve">
+    <value>موظف جديد</value>
+  </data>
   <data name="AddressReqired" xml:space="preserve">
     <value>يرجى إدخال العنوان</value>
   </data>
@@ -266,5 +269,14 @@
   </data>
   <data name="View" xml:space="preserve">
     <value>عرض الموظف</value>
+  </data>
+  <data name="Confirmpassword" xml:space="preserve">
+    <value>تأكيد الرقم السرى</value>
+  </data>
+  <data name="NewUser" xml:space="preserve">
+    <value>تسجيل حساب جديد </value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>هل أتذكر هذا الحساب؟</value>
   </data>
 </root>
